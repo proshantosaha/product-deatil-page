@@ -4,17 +4,18 @@ import {AppBar,Toolbar,IconButton, Typography, Box} from '@mui/material'
 import Link from '../../utils/mui/Link'
 import SearchFrom from '../search/SearchFrom'
 import CartIcon from '../cart/CartIcon'
-import Account from '../account/Account'
+import AccountIcon from '../account/AccountIcon'
+import Nabbar from './nabbar'
 
 const Nav = () => {
   return (
     <>
      <AppBar>
         <Toolbar position="sticky">
-          <IconButton size='large' edge='start' color='inherit' sx={{mr:2}}>
+          <IconButton size='large' edge='start' sx={{mr:2}}>
             <Menu/>
           </IconButton>
-          <Link href="/" color="inherit" sx={{textDecoration:'none'}}>
+          <Link href="/" color="#298580" sx={{textDecoration:'none'}}>
             <Typography variant='h6' component="h1" noWrap>
                 Ps-Eco
             </Typography>
@@ -32,9 +33,10 @@ const Nav = () => {
           </IconButton>
 
           <CartIcon/>
-          <Account/>
+          <AccountIcon/>
 
         </Toolbar>
+        <Nabbar/>
       </AppBar>
     
     </>

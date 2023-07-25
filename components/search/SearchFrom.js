@@ -14,7 +14,7 @@ const SearchFrom = () => {
     backgroundColor: alpha(theme.palette.common.white,0.15),
     '&.hover':{backgroundColor:alpha(theme.palette.common.white,0.25)},
     mr:2,
-    ml:3
+    ml:24
    }}>
 
     <Box
@@ -40,7 +40,7 @@ const SearchFrom = () => {
             color:"inherit",
             '& .MuiInputBase-input':{
                 p:theme.spacing(1,1,1,0),
-                width:'25ch',
+                width:'120ch',
                 pl:`calc(1em + ${theme.spacing(4)})`
             }
            }}

@@ -2,7 +2,7 @@ import { AccountCircle } from '@mui/icons-material'
 import { IconButton } from '@mui/material'
 import React from 'react'
 
-const Account = () => {
+const AccountIcon = () => {
   return (
     <>
     
@@ -15,4 +15,4 @@ const Account = () => {
   )
 }
 
-export default Account
+export default AccountIcon
